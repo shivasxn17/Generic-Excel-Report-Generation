@@ -1,0 +1,66 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    atk (3.1.0-x86-mingw32)
+      glib2 (= 3.1.0)
+    axlsx (2.0.1)
+      htmlentities (~> 4.3.1)
+      nokogiri (>= 1.4.1)
+      rubyzip (~> 1.0.0)
+    cairo (1.15.5-x86-mingw32)
+      pkg-config (>= 1.1.5)
+    domain_name (0.5.20161129)
+      unf (>= 0.0.5, < 1.0.0)
+    ffi (1.9.17-x86-mingw32)
+    gdk_pixbuf2 (3.1.0-x86-mingw32)
+      gio2 (= 3.1.0)
+    gio2 (3.1.0-x86-mingw32)
+      glib2 (= 3.1.0)
+      gobject-introspection (= 3.1.0)
+    glib2 (3.1.0-x86-mingw32)
+      cairo (>= 1.12.8)
+      pkg-config
+    gobject-introspection (3.1.0-x86-mingw32)
+      glib2 (= 3.1.0)
+    green_shoes (1.1.374)
+      gtk2
+    gtk2 (3.1.0-x86-mingw32)
+      atk (= 3.1.0)
+      gdk_pixbuf2 (= 3.1.0)
+      pango (= 3.1.0)
+    htmlentities (4.3.4)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    json (2.0.3)
+    mime-types (2.99.3)
+    mini_portile2 (2.1.0)
+    netrc (0.11.0)
+    nokogiri (1.7.0.1-x86-mingw32)
+      mini_portile2 (~> 2.1.0)
+    pango (3.1.0-x86-mingw32)
+      cairo (>= 1.14.0)
+      glib2 (= 3.1.0)
+    pg (0.19.0-x86-mingw32)
+    pkg-config (1.1.7)
+    rest-client (1.8.0-x86-mingw32)
+      ffi (~> 1.9)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    rubyzip (1.0.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2-x86-mingw32)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  axlsx
+  green_shoes (~> 1.1, >= 1.1.374)
+  json
+  pg
+  rest-client (~> 1.8)
+
+BUNDLED WITH
+   1.12.5
